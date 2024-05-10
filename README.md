@@ -67,6 +67,3 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.2.3 spark_s
 ```bash
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.2.3 spark_batch_consumer.py
 ```
-- Both the consumer files can run at the ```same time```.
-- Hurray!!! You are running the pub-sub model auccessfully, which is real time simulation of data ```without using any API```
-- For more details like output format and explanation refer to the attached [REPORT](https://github.com/smsraj2001/STREAM-BATCH-PROCESSING-KAFKA-SPARK/blob/main/REPORT.pdf)
